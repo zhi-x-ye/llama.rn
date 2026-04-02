@@ -31,7 +31,6 @@
     "!**/.*"
   ],
   "scripts": {
-    "prepare": "bob build",
     "bootstrap": "./scripts/bootstrap.sh",
     "docgen": "typedoc src/index.ts --plugin typedoc-plugin-markdown --readme none --out docs/API",
     "test": "jest",
